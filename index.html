@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BRIGHTGRID WIRING CO</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+
+
+  <!-- LOGO / NAVIGATION HEADER -->
+  <header class="logo-header">
+    <div class="logo-container">
+      <img src="logo.png" alt="BRIGHTGRID WIRING CO Logo" class="logo">
+      <h1>BRIGHTGRID WIRING CO</h1>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="overlay">
+      <h1>Modern Electrical Solutions for Every Home</h1>
+      <p>Reliable home wiring, lighting installations, and smart home upgrades.</p>
+    </div>
+  </section>
+
+
+<!-- ABOUT -->
+  <section class="about">
+    <h2>About Us</h2>
+    <p>BRIGHTGRID WIRING CO delivers professional home wiring, lighting installations, and smart home upgrades. Safety, efficiency, and modern design are our top priorities.</p>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <h3>Full Home Wiring</h3>
+        <p>Reliable, safe wiring solutions for every home layout.</p>
+      </div>
+      <div class="service-card">
+        <h3>Lighting Installation</h3>
+        <p>Modern and classic lighting styles to match your taste.</p>
+      </div>
+      <div class="service-card">
+        <h3>Emergency Repair</h3>
+        <p>Fast response to electrical issues in your home.</p>
+      </div>
+      <div class="service-card">
+        <h3>Smart Home Setup</h3>
+        <p>Upgrade your home with smart switches and automated lights.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery">
+    <h2>Light Styles Gallery</h2>
+    <div class="gallery-grid">
+      <img src="light1.jpg" alt="Modern Ceiling Light">
+      <img src="light2.jpg" alt="Classic Bulb">
+      <img src="light3.jpg" alt="Chandelier Style">
+      <img src="light4.jpg" alt="LED Strip Light">
+    </div>
+  </section>
+
+  <!-- GALLERY LIGHTBOX -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+    <p id="caption"></p>
+  </div>
+
+  <!-- VIDEOS -->
+  <section class="videos">
+    <h2>Our Work in Action</h2>
+    <div class="video-grid">
+      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID1" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID2" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- APPOINTMENT -->
+  <section class="appointment">
+    <h2>Book an Appointment</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="appointment-form">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <input type="text" name="address" placeholder="Address" required>
+      <input type="date" name="date" required>
+      <input type="time" name="time" required>
+      <select name="service" required>
+        <option value="">Select Service</option>
+        <option value="full-wiring">Full Home Wiring</option>
+        <option value="lighting">Lighting Installation</option>
+        <option value="repair">Emergency Repair</option>
+        <option value="smart-home">Smart Home Setup</option>
+      </select>
+      <textarea name="message" placeholder="Additional Details" rows="4"></textarea>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="review-card">
+      <p>"Professional and efficient. Highly recommended!"</p>
+      <strong>- Jane D.</strong>
+    </div>
+    <div class="review-card">
+      <p>"Our home lighting was transformed beautifully!"</p>
+      <strong>- Michael T.</strong>
+    </div>
+  </section>
+
+  <!-- SUBMIT REVIEW -->
+  <section class="submit-review">
+    <h2>Leave a Review</h2>
+    <form id="review-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <label for="rating">Rating:</label>
+      <select name="rating" required>
+        <option value="">Select Stars</option>
+        <option value="5">⭐⭐⭐⭐⭐</option>
+        <option value="4">⭐⭐⭐⭐</option>
+        <option value="3">⭐⭐⭐</option>
+        <option value="2">⭐⭐</option>
+        <option value="1">⭐</option>
+      </select>
+      <textarea name="message" placeholder="Your Review" rows="4" required></textarea>
+      <button type="submit">Submit Review</button>
+    </form>
+  </section>
+
+  <!-- NEWSLETTER POPUP -->
+  <div id="newsletter-popup" class="newsletter-popup">
+    <div class="popup-content">
+      <span class="close-popup">&times;</span>
+      <h3>Subscribe to our Newsletter</h3>
+      <form id="newsletter-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>Or call us directly: <strong>+234 801 234 5678</strong></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 BRIGHTGRID WIRING CO — All Rights Reserved</p>
+  </footer>
+
+  <!-- LINK JS -->
+  <script src="script.js"></script>
+</body>
+</html>
